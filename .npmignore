@@ -1,0 +1,9 @@
+### Custom ###
+/.vscode
+/.editorconfig
+/.eslintrc.js
+/.lintstagedrc
+/.markdownlint.json
+/commitlint.config.js
+/NOTES.md
+/prettier.config.js

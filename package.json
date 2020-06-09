@@ -1,0 +1,55 @@
+{
+  "name": "vapper-configer-modern",
+  "version": "0.0.0",
+  "description": "Vapper configer for modern build",
+  "main": "index.js",
+  "keywords": [
+    "vue",
+    "ssr",
+    "vapper",
+    "webpack",
+    "configer"
+  ],
+  "author": "thierrymichel <thierry@epic.net> (https://www.epic.net)",
+  "license": "SEE LICENSE IN UNLICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicagency/vapper-configer-modern.git"
+  },
+  "homepage": "https://github.com/epicagency/vapper-configer-modern#readme",
+  "bugs": {
+    "url": "https://github.com/epicagency/vapper-configer-modern/issues"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-ccgls"
+    },
+    "cz-ccgls": {
+      "useScopes": false
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.1.2",
+    "commitlint-config-ccgls": "^1.2.0",
+    "cz-ccgls": "^0.2.3",
+    "eslint": "^7.2.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "@vapper/configer-vue-cli": "^1.1.1"
+  }
+}
