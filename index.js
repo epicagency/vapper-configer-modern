@@ -46,6 +46,8 @@ module.exports = class ModernConfiger extends BaseConfiger {
   clientChainFn(config) {
     super.clientChainFn(config)
 
-    config.plugin('modern-configer').use(ModernConfigerPlugin)
+    if (process.env.BROWSERSLIST_ENV === 'modern') {
+      config.plugin('modern-configer').use(ModernConfigerPlugin)
+    }
   }
 }
