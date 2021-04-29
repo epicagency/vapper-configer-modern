@@ -1,6 +1,6 @@
 {
   "name": "vapper-configer-modern",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vapper configer for modern build",
   "main": "index.js",
   "keywords": [
