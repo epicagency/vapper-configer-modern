@@ -14,7 +14,7 @@ class ModernConfigerPlugin {
         async (data, cb) => {
           // Use <script type="module"> for modern assets
           data.body.forEach(tag => {
-            if (tag.tagName === 'script' && tag.attributes) {
+            if (tag.tagName === 'script' && tag.attributes && tag.dataset.modern !== 'false') {
               tag.attributes.type = 'module'
             }
           })
