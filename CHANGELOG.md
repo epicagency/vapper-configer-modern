@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/epicagency/vapper-configer-modern/compare/v0.0.3...v0.0.4) (2021-04-29)
+
+### Bug Fixes
+
+- :bug: fix undefined dataset ([ee92b6f](https://github.com/epicagency/vapper-configer-modern/commit/ee92b6f912912f864aa2c70a7cfe813d8d9b98b1))
+
 ### [0.0.3](https://github.com/epicagency/vapper-configer-modern/compare/v0.0.2...v0.0.3) (2021-04-29)
 
 ### Features
